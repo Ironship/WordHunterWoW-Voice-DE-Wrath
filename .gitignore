@@ -1,0 +1,16 @@
+# The audio is committed. It is what this pack exists to carry, and the
+# CurseForge packager builds from a tagged commit -- so a repository without it
+# publishes an addon that installs, loads, and is silent, which is worse than
+# one that fails. Measured before deciding: git saves 9% on ogg and nothing at
+# all between two renderings of the same sentence, so a re-read of the corpus
+# adds its full size to history again. That is answered by squashing when it
+# happens, not by keeping the audio out.
+
+/release/
+/curseforge/
+*.zip
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
