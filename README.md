@@ -25,8 +25,8 @@ It is a hard dependency: without it the client will not load this pack at all.
 
 ## The audio is in this repository
 
-`sounds/` is committed, and `.gitignore` says why. It is 448 MB here, out of
-about 5.7 gigabytes across the twelve packs. So a checkout of this repository is
+`sounds/` is committed, and `.gitignore` says why. It is 470 MB here, out of
+about 6.1 gigabytes across the twelve packs. So a checkout of this repository is
 installable by itself: copy the folder into `Interface/AddOns` and it plays.
 
 `Tools/build_pack.py` in the engine repository assembles the same thing, and is
