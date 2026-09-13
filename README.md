@@ -3,7 +3,7 @@
 The German a quest giver says out loud, for Wrath of the Lich King: quest ids
 **11,580–14,620**.
 
-**20,029 clips, 31.1 hours.** Both are counted from this pack's own duration
+**20,029 clips, 25.2 hours.** Both are counted from this pack's own duration
 table in `Part.lua` — the table the engine plays from — so they are what the
 pack can actually be asked for, not what happens to sit on disk.
 
@@ -23,15 +23,14 @@ Everything that decides when to play a clip is in the engine addon,
 [QuestWordHunter — German Voiceover](https://github.com/Ironship/WordHunterWoW-Voice-DE).
 It is a hard dependency: without it the client will not load this pack at all.
 
-## The audio is not in this repository
+## The audio is in this repository
 
-`sounds/` is gitignored, and `.gitignore` says why: it is 550 MB here and
-around seven gigabytes across the twelve packs, and how that should ship has
-not been decided. So a checkout of this repository is not installable by itself
-— it is the manifest, the licence and the duration table, and no sound.
+`sounds/` is committed, and `.gitignore` says why. It is 448 MB here, out of
+about 5.7 gigabytes across the twelve packs. So a checkout of this repository is
+installable by itself: copy the folder into `Interface/AddOns` and it plays.
 
-The playable pack is assembled by `Tools/build_pack.py` in the engine
-repository, which takes these files and adds the clips:
+`Tools/build_pack.py` in the engine repository assembles the same thing, and is
+the quicker route when the clips have just been regenerated:
 
 ```
 python Tools/build_pack.py --only Wrath --out "…/Interface/AddOns"
