@@ -44,6 +44,9 @@ engine computes that name and asks the client for it, so there is no index that
 can fall out of step with the files. The two-digit folder is there only so that
 nothing has to open a directory of tens of thousands of clips.
 
-Retail 12.1 (interface 120100) and Classic Era (11509) — one manifest each.
+Retail 12.1 (interface 120100), one manifest. Not Classic Era: none of the
+quests in this pack exists in that game, so a pack that loaded there would be
+silent for ever. The Classic pack and the word pack are the two that do carry a
+Classic Era manifest.
 GPL v3, see `LICENSE`. The audio carries CC BY-NC 4.0, which `NOTICE` sets out:
 this is given away and may not be sold.
