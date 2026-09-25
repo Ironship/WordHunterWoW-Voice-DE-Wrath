@@ -1,4 +1,4 @@
-## Interface: 120100
+## Interface: 120100, 120105
 ## Title: QuestWordHunter - German Voiceover: Wrath
 ## Notes: German quest audio for Wrath. Needs WordHunterWoW-Voice-DE.
 ## IconTexture: Interface\AddOns\WordHunterWoW-Voice-DE-Wrath\icon
